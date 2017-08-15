@@ -13,6 +13,10 @@ public class Producto {
 	private String nombre;
 	private double precio;
 
+	public Producto(int i, String string, int j) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
