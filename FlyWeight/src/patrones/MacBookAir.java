@@ -7,44 +7,11 @@ package patrones;
  * @author DUSGAB
  *
  */
-public class MacBookAir {
+public interface MacBookAir {
 
-	private String id;
-	private int ram;
-	private int disco;
-	private static int contador;
+	public String getId();
 
-	public MacBookAir(String id, int ram, int disco) {
-		super();
-		this.id = id;
-		this.ram = ram;
-		this.disco = disco;
-		contador++;
-		System.out.println(contador);
-	}
+	public int getRam();
 
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public int getRam() {
-		return ram;
-	}
-
-	public void setRam(int ram) {
-		this.ram = ram;
-	}
-
-	public int getDisco() {
-		return disco;
-	}
-
-	public void setDisco(int disco) {
-		this.disco = disco;
-	}
-
+	public int getDisco();
 }
