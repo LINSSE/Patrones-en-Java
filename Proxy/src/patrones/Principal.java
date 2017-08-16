@@ -11,7 +11,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		ServicioMensaje sm = new ServicioMensajeImpl();
+		ServicioMensaje sm = new ServicioMensajeProxy();
 		System.out.println(sm.mensaje("pepito"));
 
 	}
