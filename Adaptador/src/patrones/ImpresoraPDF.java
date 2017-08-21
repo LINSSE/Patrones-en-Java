@@ -16,7 +16,7 @@ public class ImpresoraPDF extends Impresora {
 
 	public void imprimir() {
 
-		System.out.println("fichero pdf con " + getTexto());
+		System.out.println("fichero PDF con " + getTexto());
 
 	}
 }

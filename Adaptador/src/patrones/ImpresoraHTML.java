@@ -11,11 +11,12 @@ public class ImpresoraHTML extends Impresora {
 
 	public ImpresoraHTML(String texto) {
 		super();
+		setTexto(texto);
 	}
 
 	public void imprimir() {
 
-		System.out.println("fichero texto con " + getTexto());
+		System.out.println("fichero HTML con " + getTexto());
 
 	}
 }
